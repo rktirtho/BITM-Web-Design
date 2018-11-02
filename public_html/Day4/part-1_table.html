@@ -9,12 +9,21 @@ and open the template in the editor.
         <title>Table Example</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-sclae=1.0">
+        <style>
+            table#t1 thead th{
+                background: #656565;
+                color: #fff
+            }
+            table tr:nth-child(even){
+                background-color: #ddd
+            }
+        </style>
         
     </head>
     <body>
         <h1 align="middle">Education And Course Details</h1>
         
-        <table border="1" width="100%" cellspacing="1" cellpadding="18">
+        <table id="t1" border="1" width="100%" cellspacing="1" cellpadding="18" style="border-collapse: collapse">
             <thead>
                 <tr>
                     <th>SL</th>

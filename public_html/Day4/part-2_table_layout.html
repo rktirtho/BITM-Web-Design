@@ -9,12 +9,44 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title>Home | BITM</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table#t01{
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto
+            }
+            table, td, th{
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 10px
+                
+            }
+            table#t01 th{
+                background-color: #1e1e1e;
+                color: #fff;
+            }
+            table#t01 tr:nth-child(even){
+                background-color: #dddddd;
+            }
+            table#t01 th{
+                border: 1px solid #ddd
+            }
+            table#t01 caption{
+                font-family: fantasy;
+                font-size: 1.3rem;
+                font-weight: bold;
+                color: #6d6767
+            }
+            
+
+        </style>
     </head>
     <body>
-        <table border="1" width="100%">
+        <table border="1" width="100%" style="border-collapse: collapse" >
             <tr>
                 <td height="200px">
-                    <img src="../images/index.png" alt="file not found" title="logo">
+                    <img src="../images/index.png" alt="file not found" title="logo" style="border: 2px solid #000; border-collapse: collapse">
+                    
                 </td>
                 <td height="200px" colspan="2">
                     <img src="../images/1416831456.jpg" alt="not found" title="banner" style="width: 100%">
@@ -23,32 +55,57 @@ and open the template in the editor.
                     <img src="../images/seip.jpg" alt="SEIP" title="SEIP">
                 </td>
             </tr>
-            
+
             <tr>
                 <td height="70px">HOME</td>
                 <td height="70px">COURSES</td>
                 <td height="70px">GALLERY</td>
                 <td height="70px">CONTACT</td>
-               
+
             </tr>
-            
+
             <tr>
                 <td height="400px"></td>
-                <td height="400px" colspan="3"></td>
-               
+
+                <td height="400px" colspan="3">
+                    <table id="t01">
+                        <caption>List of Teacher</caption>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th> 
+                            <th>Age</th>
+                        </tr>
+                        <tr>
+                            <td>Jill</td>
+                            <td>Smith</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Eve</td>
+                            <td>Jackson</td>
+                            <td>94</td>
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>80</td>
+                        </tr>
+                    </table>
+                </td>
+
             </tr>
             <tr>
                 <td height="300px"></td>
                 <td height="300px"></td>
                 <td height="300px"></td>
                 <td height="300px"></td>
-               
+
             </tr>
             <tr>
                 <td height="60px" colspan="4"><center>&copy;Copyright protected. All right reserved by BITM</center></td>
-               
-            </tr>
-            
-        </table>
-    </body>
+
+    </tr>
+
+</table>
+</body>
 </html>
