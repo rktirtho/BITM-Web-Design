@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 8, 2018, 3:00:55 PM
+    Author     : DELL
+*/
+*{
+    background: #c4fff0
+}
+
+.div-one{
+    height: 200px;
+    width: 980px;
+    background: #ff1026;
+    
+}
+.div-two{
+    width: 980px;
+    height: 60px;
+    background-color: #ff1aaa
+}
+
+.div-three{
+    width: 250px;
+    background-color: rgba(25,120,100,.5);
+    float: left;
+     height: 400px;
+}
+.div-four{
+    background-color: #ffc900;
+    width: 480px;
+    float: left;
+     height: 400px;
+}
+.div-five{
+    width: 250px;
+    background-color: rgba(25,120,100,.5);
+    float: left;
+     height: 400px;
+}
+.div-six{
+    width: 980px;
+    height: 80px;
+    background: #ff1026;
+    float: left
+}
